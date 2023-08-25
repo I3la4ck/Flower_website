@@ -49,7 +49,6 @@
   align-items: center;
   background-color: rgba(229, 84, 115, 0.1);
   padding: 30px 140px 0px;
-  /* width; */
 }
 
 .title-banner {
@@ -67,15 +66,11 @@
 }
 
 .banner-photo {
-  width: 570px;
-  height: 730px;
-  padding: 0px 10px;
+  max-width: 100%;
+  max-height: 800px;
+  
 }
 
-.flower {
-  width: 570px;
-  height: 730px;
-}
 
 /* featured flower section */
 
@@ -122,25 +117,23 @@
 
 .feature-photo {
   text-align: center;
-  /* padding: 100px 75px 0px; */
+
 }
 
-.feature-image-1 {
-  width: 310px;
-  height: 428px;
-  padding: 100px 75px 0px;
+.feature-image {
+  margin: 2px;
 }
 
-.feature-image-2 {
-  width: 370px;
-  height: 370px;
-  padding: 130px 95px 30px 60px;
+.flower-image-1 {
+  padding: 98px 75px 0px;;
 }
 
-.feature-image-3 {
-  width: 310px;
-  height: 470px;
-  padding: 58px 75px 0px;
+.flower-image-2 {
+  padding: 120px 75px 40px 50px;;
+}
+
+.flower-image-3 {
+  padding: 54px 75px 0px;;
 }
 
 .feature-link {
@@ -161,7 +154,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* width: 1440px; */
   height: 300px;
   padding: 0px 100px;
   margin: 80px 230px;
@@ -174,7 +166,6 @@
 }
 
 .delivery-support-image {
-  /* text-align: center; */
   padding: 15px;
 }
 
@@ -184,7 +175,6 @@
 
 .delivery-support-name {
   color: rgba(39, 39, 39, 0.8);
-  /* text-align: center; */
   font-family: Lato;
   font-size: 20px;
   font-style: normal;
@@ -197,7 +187,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1920px;
   height: 620px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
@@ -232,7 +221,6 @@
 /* subscription section  */
 
 .subscription-container {
-  width: 1440px;
   height: 449px;
   border-radius: 8px;
   margin: 100px 230px;
@@ -262,7 +250,6 @@ input[type="email"] {
   font-family: Lato;
   font-size: 16px;
   font-weight: 600;
-  /* margin: 10px 0px; */
 }
 
 /* customer feedback section  */
@@ -310,7 +297,6 @@ input[type="email"] {
 /* footer section */
 
 .footer-container {
-  width: 1920px;
   height: 180px;
   text-align: center;
   padding: 120px 0px;
